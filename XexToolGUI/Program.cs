@@ -25,8 +25,6 @@ namespace XexToolGUI
             process.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
             process.Start();
             process.BeginOutputReadLine();
-            process.Close();
-
         }
 
         private static void ProcessOutputDataReceived(object sender, DataReceivedEventArgs e)

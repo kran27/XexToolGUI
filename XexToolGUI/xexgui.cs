@@ -147,7 +147,7 @@ namespace XexToolGUI
         {
             var text = XeXFileTextBox.Text;
             var Destination = XeXFileTextBox.Text + ".BAK";
-            if (!File.Exists(XeXFileTextBox.Text))
+            if (!File.Exists("\"" + XeXFileTextBox.Text + "\""))
             {
                 MessageBox.Show("No xex File selected !", "Does not exist", MessageBoxButtons.OK,
                     MessageBoxIcon.Exclamation);
@@ -286,7 +286,7 @@ namespace XexToolGUI
             Timer1.Start();
             XLogBox.Text =
                 "Create Basic Info file with XeXTool GUI\r\n----------------------------------------------------\r\n";
-            Process(XeXFileTextBox.Text);
+            Process("\"" + XeXFileTextBox.Text + "\"");
             DeleteLog();
         }
 
