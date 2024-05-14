@@ -1,13 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Diagnostics;
-using System.Drawing;
-using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace XexToolGUI
@@ -22,49 +14,49 @@ namespace XexToolGUI
         private void UpdateTextBoxText(string text)
         {
             Debug.WriteLine(text);
-            if (this.CheckBox1.Checked)
+            if (CheckBox1.Checked)
             {
-                this.idcLogBox.AppendText(Environment.NewLine);
-                this.idcLogBox.AppendText(text + Environment.NewLine);
+                idcLogBox.AppendText(Environment.NewLine);
+                idcLogBox.AppendText(text + Environment.NewLine);
             }
             else
-                this.idcLogBox.Text = text;
+                idcLogBox.Text = text;
         }
 
         private void ProcessOutputDataReceived(object sender, DataReceivedEventArgs e)
         {
             if (string.IsNullOrEmpty(e.Data))
                 return;
-            this.Invoke((Delegate)new IDCScript.UpdateTextBoxTextDelegate(this.UpdateTextBoxText), (object)e.Data);
+            Invoke(new UpdateTextBoxTextDelegate(UpdateTextBoxText), e.Data);
         }
 
         private void openxexButton1_Click(object sender, EventArgs e)
         {
-            int num = (int)this.OpenFileDialog1.ShowDialog();
-            this.SearchxexTextBox.Text = this.OpenFileDialog1.FileName;
+            var num = (int)OpenFileDialog1.ShowDialog();
+            SearchxexTextBox.Text = OpenFileDialog1.FileName;
         }
 
         private void saveidcButton2_Click(object sender, EventArgs e)
         {
-            int num = (int)this.SaveFileDialog1.ShowDialog();
-            this.SaveidcTextBox.Text = this.SaveFileDialog1.FileName;
+            var num = (int)SaveFileDialog1.ShowDialog();
+            SaveidcTextBox.Text = SaveFileDialog1.FileName;
         }
 
         private void CreateidcButton_Click(object sender, EventArgs e)
         {
-            Process(" -i " + this.SaveidcTextBox.Text + " " + this.SearchxexTextBox.Text);
+            Process(" -i " + SaveidcTextBox.Text + " " + SearchxexTextBox.Text);
         }
         private void Process(string arg)
         {
                 Program.process = new Process();
-                Program.process.OutputDataReceived += new DataReceivedEventHandler(this.ProcessOutputDataReceived);
+                Program.process.OutputDataReceived += ProcessOutputDataReceived;
                 Program.CurrentProcess(arg);
         }
         private void ClearToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            this.idcLogBox.Text = "";
-            this.SearchxexTextBox.Text = "";
-            this.SaveidcTextBox.Text = "";
+            idcLogBox.Text = "";
+            SearchxexTextBox.Text = "";
+            SaveidcTextBox.Text = "";
         }
 
         public delegate void UpdateTextBoxTextDelegate(string text);

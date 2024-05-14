@@ -1,11 +1,14 @@
-﻿namespace XexToolGUI
+﻿using System.ComponentModel;
+using System.Windows.Forms;
+
+namespace XexToolGUI
 {
     partial class Dump
     {
         /// <summary>
         /// Required designer variable.
         /// </summary>
-        private System.ComponentModel.IContainer components = null;
+        private IContainer components = null;
 
         /// <summary>
         /// Clean up any resources being used.
@@ -284,26 +287,26 @@
 
         #endregion
 
-        private System.Windows.Forms.OpenFileDialog OpenFileDialog1;
-        private System.Windows.Forms.SaveFileDialog SaveFileDialog1;
-        private System.Windows.Forms.Label Label1;
-        private System.Windows.Forms.PictureBox PictureBox1;
-        private System.Windows.Forms.Button dumpfolder;
-        private System.Windows.Forms.ToolTip ToolTip1;
-        private System.Windows.Forms.TextBox XFolder;
-        private System.Windows.Forms.Button saveidcButton2;
-        private System.Windows.Forms.ToolStripMenuItem ClearToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem InfoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem HelpToolStripMenuItem;
-        private System.Windows.Forms.ToolStripDropDownButton ToolStripDropDownButton1;
-        private System.Windows.Forms.ToolStrip ToolStrip1;
-        private System.Windows.Forms.Button openxexButton1;
-        private System.Windows.Forms.Button Dumpall;
-        private System.Windows.Forms.Button Dumpbase;
-        private System.Windows.Forms.TextBox SavedumpTextBox;
-        private System.Windows.Forms.TextBox SearchxexTextBox;
-        private System.Windows.Forms.GroupBox GroupBox1;
-        private System.Windows.Forms.CheckBox CheckBox1;
-        private System.Windows.Forms.TextBox dumpLogBox;
+        private OpenFileDialog OpenFileDialog1;
+        private SaveFileDialog SaveFileDialog1;
+        private Label Label1;
+        private PictureBox PictureBox1;
+        private Button dumpfolder;
+        private ToolTip ToolTip1;
+        private TextBox XFolder;
+        private Button saveidcButton2;
+        private ToolStripMenuItem ClearToolStripMenuItem;
+        private ToolStripMenuItem InfoToolStripMenuItem;
+        private ToolStripMenuItem HelpToolStripMenuItem;
+        private ToolStripDropDownButton ToolStripDropDownButton1;
+        private ToolStrip ToolStrip1;
+        private Button openxexButton1;
+        private Button Dumpall;
+        private Button Dumpbase;
+        private TextBox SavedumpTextBox;
+        private TextBox SearchxexTextBox;
+        private GroupBox GroupBox1;
+        private CheckBox CheckBox1;
+        private TextBox dumpLogBox;
     }
 }

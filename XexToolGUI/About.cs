@@ -1,29 +1,26 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
 using System.IO;
-using System.Linq;
+using System.Media;
 using System.Reflection;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using XexToolGUI.Properties;
 
 namespace XexToolGUI
 {
     partial class About : Form
     {      
-         System.Media.SoundPlayer player { get; set; }
+         SoundPlayer player { get; set; }
         public About()
         {
             InitializeComponent();
-            player = new System.Media.SoundPlayer(new MemoryStream(Properties.Resources.About_sound));
+            player = new SoundPlayer(new MemoryStream(Resources.About_sound));
             player.PlayLooping();
-            this.Text = "Info XexTool GUI";
-            this.labelProductName.Text = "XexToolGUI for xorloser's xextool";
-            this.labelVersion.Text = String.Format("Version {0}", AssemblyVersion);
-            this.labelCopyright.Text = "Copyright © Serenity 2022";
-            this.labelCompanyName.Text = "Thanks to:";
-            this.textBoxDescription.Text = "Made By mLoaD \r\n xorloser  for your Program and your Hard work \r\n Open Sourced By Serenity.";
+            Text = "Info XexTool GUI";
+            labelProductName.Text = "XexToolGUI for xorloser's xextool";
+            labelVersion.Text = String.Format("Version {0}", AssemblyVersion);
+            labelCopyright.Text = "Copyright © Serenity 2022";
+            labelCompanyName.Text = "Thanks to:";
+            textBoxDescription.Text = "Made By mLoaD \r\n xorloser  for your Program and your Hard work \r\n Open Sourced By Serenity.";
         }
 
         #region Assembly Attribute Accessors
@@ -32,16 +29,16 @@ namespace XexToolGUI
         {
             get
             {
-                object[] attributes = Assembly.GetExecutingAssembly().GetCustomAttributes(typeof(AssemblyTitleAttribute), false);
+                var attributes = Assembly.GetExecutingAssembly().GetCustomAttributes(typeof(AssemblyTitleAttribute), false);
                 if (attributes.Length > 0)
                 {
-                    AssemblyTitleAttribute titleAttribute = (AssemblyTitleAttribute)attributes[0];
+                    var titleAttribute = (AssemblyTitleAttribute)attributes[0];
                     if (titleAttribute.Title != "")
                     {
                         return titleAttribute.Title;
                     }
                 }
-                return System.IO.Path.GetFileNameWithoutExtension(Assembly.GetExecutingAssembly().CodeBase);
+                return Path.GetFileNameWithoutExtension(Assembly.GetExecutingAssembly().CodeBase);
             }
         }
 
@@ -57,7 +54,7 @@ namespace XexToolGUI
         {
             get
             {
-                object[] attributes = Assembly.GetExecutingAssembly().GetCustomAttributes(typeof(AssemblyProductAttribute), false);
+                var attributes = Assembly.GetExecutingAssembly().GetCustomAttributes(typeof(AssemblyProductAttribute), false);
                 if (attributes.Length == 0)
                 {
                     return "";
@@ -70,7 +67,7 @@ namespace XexToolGUI
         {
             get
             {
-                object[] attributes = Assembly.GetExecutingAssembly().GetCustomAttributes(typeof(AssemblyCopyrightAttribute), false);
+                var attributes = Assembly.GetExecutingAssembly().GetCustomAttributes(typeof(AssemblyCopyrightAttribute), false);
                 if (attributes.Length == 0)
                 {
                     return "";
@@ -83,7 +80,7 @@ namespace XexToolGUI
         {
             get
             {
-                object[] attributes = Assembly.GetExecutingAssembly().GetCustomAttributes(typeof(AssemblyCompanyAttribute), false);
+                var attributes = Assembly.GetExecutingAssembly().GetCustomAttributes(typeof(AssemblyCompanyAttribute), false);
                 if (attributes.Length == 0)
                 {
                     return "";

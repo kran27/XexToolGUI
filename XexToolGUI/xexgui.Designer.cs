@@ -115,7 +115,6 @@ namespace XexToolGUI
             this.GroupBox6 = new System.Windows.Forms.GroupBox();
             this.SaveButton = new System.Windows.Forms.Button();
             this.OpenxexpButton = new System.Windows.Forms.Button();
-            this.Label2 = new System.Windows.Forms.Label();
             this.Label8 = new System.Windows.Forms.Label();
             this.Label7 = new System.Windows.Forms.Label();
             this.OpenxexButton = new System.Windows.Forms.Button();
@@ -834,7 +833,6 @@ namespace XexToolGUI
             // 
             this.GroupBox6.Controls.Add(this.SaveButton);
             this.GroupBox6.Controls.Add(this.OpenxexpButton);
-            this.GroupBox6.Controls.Add(this.Label2);
             this.GroupBox6.Controls.Add(this.Label8);
             this.GroupBox6.Controls.Add(this.Label7);
             this.GroupBox6.Controls.Add(this.OpenxexButton);
@@ -868,15 +866,6 @@ namespace XexToolGUI
             this.OpenxexpButton.TabIndex = 31;
             this.OpenxexpButton.UseVisualStyleBackColor = true;
             this.OpenxexpButton.Click += new System.EventHandler(this.OpenxexpButton_Click);
-            // 
-            // Label2
-            // 
-            this.Label2.AutoSize = true;
-            this.Label2.Location = new System.Drawing.Point(113, 16);
-            this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(172, 13);
-            this.Label2.TabIndex = 28;
-            this.Label2.Text = "There must be no spaces available";
             // 
             // Label8
             // 
@@ -1019,7 +1008,6 @@ namespace XexToolGUI
         private GroupBox GroupBox6;
         private Button SaveButton;
         private Button OpenxexpButton;
-        private Label Label2;
         private Label Label8;
         private Label Label7;
         private Button OpenxexButton;

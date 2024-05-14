@@ -1,4 +1,5 @@
-﻿using System;
+﻿using System.ComponentModel;
+using System.Windows.Forms;
 
 namespace XexToolGUI
 {
@@ -7,7 +8,7 @@ namespace XexToolGUI
         /// <summary>
         /// Required designer variable.
         /// </summary>
-        private System.ComponentModel.IContainer components = null;
+        private IContainer components = null;
 
         /// <summary>
         /// Clean up any resources being used.
@@ -167,15 +168,15 @@ namespace XexToolGUI
 
         #endregion
 
-        public System.Windows.Forms.Button Xclosetu;
-        public System.Windows.Forms.Button XUpdatexbuc;
-        public System.Windows.Forms.ToolTip ToolTip1;
-        public System.Windows.Forms.Button XUpdateJQE360;
-        public System.Windows.Forms.TextBox XMediaID;
-        public System.Windows.Forms.Label Label1;
-        public System.Windows.Forms.GroupBox GroupBox1;
-        public System.Windows.Forms.Button Xcleartu;
-        public System.Windows.Forms.Label Label2;
-        public System.Windows.Forms.TextBox XGamename;
+        public Button Xclosetu;
+        public Button XUpdatexbuc;
+        public ToolTip ToolTip1;
+        public Button XUpdateJQE360;
+        public TextBox XMediaID;
+        public Label Label1;
+        public GroupBox GroupBox1;
+        public Button Xcleartu;
+        public Label Label2;
+        public TextBox XGamename;
     }
 }

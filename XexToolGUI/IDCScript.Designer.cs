@@ -1,11 +1,14 @@
-﻿namespace XexToolGUI
+﻿using System.ComponentModel;
+using System.Windows.Forms;
+
+namespace XexToolGUI
 {
     partial class IDCScript
     {
         /// <summary>
         /// Required designer variable.
         /// </summary>
-        private System.ComponentModel.IContainer components = null;
+        private IContainer components = null;
 
         /// <summary>
         /// Clean up any resources being used.
@@ -242,23 +245,23 @@
 
         #endregion
 
-        private System.Windows.Forms.ToolTip ToolTip1;
-        private System.Windows.Forms.SaveFileDialog SaveFileDialog1;
-        private System.Windows.Forms.ToolStripMenuItem ClearToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem InfoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem HelpToolStripMenuItem;
-        private System.Windows.Forms.ToolStripDropDownButton ToolStripDropDownButton1;
-        private System.Windows.Forms.ToolStrip ToolStrip1;
-        private System.Windows.Forms.OpenFileDialog OpenFileDialog1;
-        private System.Windows.Forms.Label Label1;
-        private System.Windows.Forms.PictureBox PictureBox1;
-        private System.Windows.Forms.Button savexmlButton2;
-        private System.Windows.Forms.Button openxexButton1;
-        private System.Windows.Forms.TextBox SaveidcTextBox;
-        private System.Windows.Forms.TextBox SearchxexTextBox;
-        private System.Windows.Forms.Button CreateidcButton;
-        private System.Windows.Forms.GroupBox GroupBox1;
-        private System.Windows.Forms.TextBox idcLogBox;
-        private System.Windows.Forms.CheckBox CheckBox1;
+        private ToolTip ToolTip1;
+        private SaveFileDialog SaveFileDialog1;
+        private ToolStripMenuItem ClearToolStripMenuItem;
+        private ToolStripMenuItem InfoToolStripMenuItem;
+        private ToolStripMenuItem HelpToolStripMenuItem;
+        private ToolStripDropDownButton ToolStripDropDownButton1;
+        private ToolStrip ToolStrip1;
+        private OpenFileDialog OpenFileDialog1;
+        private Label Label1;
+        private PictureBox PictureBox1;
+        private Button savexmlButton2;
+        private Button openxexButton1;
+        private TextBox SaveidcTextBox;
+        private TextBox SearchxexTextBox;
+        private Button CreateidcButton;
+        private GroupBox GroupBox1;
+        private TextBox idcLogBox;
+        private CheckBox CheckBox1;
     }
 }

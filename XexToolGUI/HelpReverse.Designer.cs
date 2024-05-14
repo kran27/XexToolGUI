@@ -1,11 +1,14 @@
-﻿namespace XexToolGUI
+﻿using System.ComponentModel;
+using System.Windows.Forms;
+
+namespace XexToolGUI
 {
     partial class HelpReverse
     {
         /// <summary>
         /// Required designer variable.
         /// </summary>
-        private System.ComponentModel.IContainer components = null;
+        private IContainer components = null;
 
         /// <summary>
         /// Clean up any resources being used.
@@ -74,7 +77,7 @@
 
         #endregion
 
-        private System.Windows.Forms.PictureBox PictureBox1;
-        private System.Windows.Forms.TextBox TextBox1;
+        private PictureBox PictureBox1;
+        private TextBox TextBox1;
     }
 }

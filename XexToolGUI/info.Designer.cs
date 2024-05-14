@@ -1,11 +1,14 @@
-﻿namespace XexToolGUI
+﻿using System.ComponentModel;
+using System.Windows.Forms;
+
+namespace XexToolGUI
 {
     partial class info
     {
         /// <summary>
         /// Required designer variable.
         /// </summary>
-        private System.ComponentModel.IContainer components = null;
+        private IContainer components = null;
 
         /// <summary>
         /// Clean up any resources being used.
@@ -234,19 +237,19 @@
 
         #endregion
 
-        private System.Windows.Forms.GroupBox GroupBox1;
-        private System.Windows.Forms.Label Label1;
-        private System.Windows.Forms.Button XClose;
-        private System.Windows.Forms.TextBox TextBox1;
-        private System.Windows.Forms.TabControl TabControl1;
-        private System.Windows.Forms.TabPage TabPage1;
-        private System.Windows.Forms.TabPage TabPage2;
-        private System.Windows.Forms.TextBox TextBox2;
-        private System.Windows.Forms.TabPage TabPage3;
-        private System.Windows.Forms.TextBox TextBox3;
-        private System.Windows.Forms.TabPage TabPage4;
-        private System.Windows.Forms.TextBox TextBox4;
-        private System.Windows.Forms.TabPage TabPage5;
-        private System.Windows.Forms.TextBox TextBox5;
+        private GroupBox GroupBox1;
+        private Label Label1;
+        private Button XClose;
+        private TextBox TextBox1;
+        private TabControl TabControl1;
+        private TabPage TabPage1;
+        private TabPage TabPage2;
+        private TextBox TextBox2;
+        private TabPage TabPage3;
+        private TextBox TextBox3;
+        private TabPage TabPage4;
+        private TextBox TextBox4;
+        private TabPage TabPage5;
+        private TextBox TextBox5;
     }
 }

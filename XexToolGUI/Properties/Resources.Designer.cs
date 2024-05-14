@@ -8,10 +8,16 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using System.CodeDom.Compiler;
+using System.ComponentModel;
+using System.Diagnostics;
+using System.Diagnostics.CodeAnalysis;
+using System.Drawing;
+using System.Globalization;
+using System.Resources;
+using System.Runtime.CompilerServices;
+
 namespace XexToolGUI.Properties {
-    using System;
-    
-    
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -19,27 +25,27 @@ namespace XexToolGUI.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
-    [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-    [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+    [GeneratedCode("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
+    [DebuggerNonUserCode()]
+    [CompilerGenerated()]
     internal class Resources {
         
-        private static global::System.Resources.ResourceManager resourceMan;
+        private static ResourceManager resourceMan;
         
-        private static global::System.Globalization.CultureInfo resourceCulture;
+        private static CultureInfo resourceCulture;
         
-        [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
+        [SuppressMessage("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
         internal Resources() {
         }
         
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
-        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Resources.ResourceManager ResourceManager {
+        [EditorBrowsable(EditorBrowsableState.Advanced)]
+        internal static ResourceManager ResourceManager {
             get {
-                if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("XexToolGUI.Properties.Resources", typeof(Resources).Assembly);
+                if (ReferenceEquals(resourceMan, null)) {
+                    ResourceManager temp = new ResourceManager("XexToolGUI.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -50,8 +56,8 @@ namespace XexToolGUI.Properties {
         ///   Overrides the current thread's CurrentUICulture property for all
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
-        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        internal static global::System.Globalization.CultureInfo Culture {
+        [EditorBrowsable(EditorBrowsableState.Advanced)]
+        internal static CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -73,490 +79,490 @@ namespace XexToolGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap AboutToolStripMenuItem_Image {
+        internal static Bitmap AboutToolStripMenuItem_Image {
             get {
                 object obj = ResourceManager.GetObject("AboutToolStripMenuItem.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap AboutToolStripMenuItem1_Image {
+        internal static Bitmap AboutToolStripMenuItem1_Image {
             get {
                 object obj = ResourceManager.GetObject("AboutToolStripMenuItem1.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap AP25ToolStripMenuItem_Image {
+        internal static Bitmap AP25ToolStripMenuItem_Image {
             get {
                 object obj = ResourceManager.GetObject("AP25ToolStripMenuItem.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap BackupxexToolStripButton_Image {
+        internal static Bitmap BackupxexToolStripButton_Image {
             get {
                 object obj = ResourceManager.GetObject("BackupxexToolStripButton.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap BinaryToolStripMenuItem_Image {
+        internal static Bitmap BinaryToolStripMenuItem_Image {
             get {
                 object obj = ResourceManager.GetObject("BinaryToolStripMenuItem.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Clear2ToolStripButton_Image {
+        internal static Bitmap Clear2ToolStripButton_Image {
             get {
                 object obj = ResourceManager.GetObject("Clear2ToolStripButton.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ClearToolStripMenuItem1_Image {
+        internal static Bitmap ClearToolStripMenuItem1_Image {
             get {
                 object obj = ResourceManager.GetObject("ClearToolStripMenuItem1.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CMDToolStripMenuItem_Image {
+        internal static Bitmap CMDToolStripMenuItem_Image {
             get {
                 object obj = ResourceManager.GetObject("CMDToolStripMenuItem.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap CompressedToolStripMenuItem_Image {
+        internal static Bitmap CompressedToolStripMenuItem_Image {
             get {
                 object obj = ResourceManager.GetObject("CompressedToolStripMenuItem.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap DashToolStripMenuItem_Image {
+        internal static Bitmap DashToolStripMenuItem_Image {
             get {
                 object obj = ResourceManager.GetObject("DashToolStripMenuItem.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap DevkitToolStripMenuItem_Image {
+        internal static Bitmap DevkitToolStripMenuItem_Image {
             get {
                 object obj = ResourceManager.GetObject("DevkitToolStripMenuItem.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap DumbToolStripMenuItem_Image {
+        internal static Bitmap DumbToolStripMenuItem_Image {
             get {
                 object obj = ResourceManager.GetObject("DumbToolStripMenuItem.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap EncryptedToolStripMenuItem_Image {
+        internal static Bitmap EncryptedToolStripMenuItem_Image {
             get {
                 object obj = ResourceManager.GetObject("EncryptedToolStripMenuItem.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ExitToolStripMenuItem_Image {
+        internal static Bitmap ExitToolStripMenuItem_Image {
             get {
                 object obj = ResourceManager.GetObject("ExitToolStripMenuItem.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ExitToolStripMenuItem2_Image {
+        internal static Bitmap ExitToolStripMenuItem2_Image {
             get {
                 object obj = ResourceManager.GetObject("ExitToolStripMenuItem2.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap HelpToolStripMenuItem_Image {
+        internal static Bitmap HelpToolStripMenuItem_Image {
             get {
                 object obj = ResourceManager.GetObject("HelpToolStripMenuItem.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap HelpToolStripMenuItem2_Image {
+        internal static Bitmap HelpToolStripMenuItem2_Image {
             get {
                 object obj = ResourceManager.GetObject("HelpToolStripMenuItem2.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap HxDToolStripMenuItem1_Image {
+        internal static Bitmap HxDToolStripMenuItem1_Image {
             get {
                 object obj = ResourceManager.GetObject("HxDToolStripMenuItem1.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap IdcFileForIDAToolStripMenuItem_Image {
+        internal static Bitmap IdcFileForIDAToolStripMenuItem_Image {
             get {
                 object obj = ResourceManager.GetObject("IdcFileForIDAToolStripMenuItem.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap InfoToolStripMenuItem_Image {
+        internal static Bitmap InfoToolStripMenuItem_Image {
             get {
                 object obj = ResourceManager.GetObject("InfoToolStripMenuItem.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap InfoToolStripMenuItem1_Image {
+        internal static Bitmap InfoToolStripMenuItem1_Image {
             get {
                 object obj = ResourceManager.GetObject("InfoToolStripMenuItem1.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap InfoToolStripMenuItem2_Image {
+        internal static Bitmap InfoToolStripMenuItem2_Image {
             get {
                 object obj = ResourceManager.GetObject("InfoToolStripMenuItem2.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap KeyvaultToolStripMenuItem_Image {
+        internal static Bitmap KeyvaultToolStripMenuItem_Image {
             get {
                 object obj = ResourceManager.GetObject("KeyvaultToolStripMenuItem.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap MediaToolStripMenuItem_Image {
+        internal static Bitmap MediaToolStripMenuItem_Image {
             get {
                 object obj = ResourceManager.GetObject("MediaToolStripMenuItem.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap OpenxexButton_Image {
+        internal static Bitmap OpenxexButton_Image {
             get {
                 object obj = ResourceManager.GetObject("OpenxexButton.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap OpenxexpButton_Image {
+        internal static Bitmap OpenxexpButton_Image {
             get {
                 object obj = ResourceManager.GetObject("OpenxexpButton.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap PatchxexToolStripButton_Image {
+        internal static Bitmap PatchxexToolStripButton_Image {
             get {
                 object obj = ResourceManager.GetObject("PatchxexToolStripButton.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap PathnameToolStripMenuItem_Image {
+        internal static Bitmap PathnameToolStripMenuItem_Image {
             get {
                 object obj = ResourceManager.GetObject("PathnameToolStripMenuItem.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ReadInfoToolStripButton_Image {
+        internal static Bitmap ReadInfoToolStripButton_Image {
             get {
                 object obj = ResourceManager.GetObject("ReadInfoToolStripButton.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap RegionToolStripMenuItem_Image {
+        internal static Bitmap RegionToolStripMenuItem_Image {
             get {
                 object obj = ResourceManager.GetObject("RegionToolStripMenuItem.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap RequiredToolStripMenuItem_Image {
+        internal static Bitmap RequiredToolStripMenuItem_Image {
             get {
                 object obj = ResourceManager.GetObject("RequiredToolStripMenuItem.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap RetailToolStripMenuItem_Image {
+        internal static Bitmap RetailToolStripMenuItem_Image {
             get {
                 object obj = ResourceManager.GetObject("RetailToolStripMenuItem.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap SaveButton_Image {
+        internal static Bitmap SaveButton_Image {
             get {
                 object obj = ResourceManager.GetObject("SaveButton.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap SavexexToolStripMenuItem_Image {
+        internal static Bitmap SavexexToolStripMenuItem_Image {
             get {
                 object obj = ResourceManager.GetObject("SavexexToolStripMenuItem.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap SelectToolStripMenuItem_Image {
+        internal static Bitmap SelectToolStripMenuItem_Image {
             get {
                 object obj = ResourceManager.GetObject("SelectToolStripMenuItem.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap SelectxexToolStripMenuItem1_Image {
+        internal static Bitmap SelectxexToolStripMenuItem1_Image {
             get {
                 object obj = ResourceManager.GetObject("SelectxexToolStripMenuItem1.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap TitleUpdatesToolStripMenuItem1_Image {
+        internal static Bitmap TitleUpdatesToolStripMenuItem1_Image {
             get {
                 object obj = ResourceManager.GetObject("TitleUpdatesToolStripMenuItem1.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ToolStripDropDownButton10_Image {
+        internal static Bitmap ToolStripDropDownButton10_Image {
             get {
                 object obj = ResourceManager.GetObject("ToolStripDropDownButton10.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ToolStripDropDownButton3_Image {
+        internal static Bitmap ToolStripDropDownButton3_Image {
             get {
                 object obj = ResourceManager.GetObject("ToolStripDropDownButton3.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ToolStripDropDownButton4_Image {
+        internal static Bitmap ToolStripDropDownButton4_Image {
             get {
                 object obj = ResourceManager.GetObject("ToolStripDropDownButton4.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ToolStripDropDownButton6_Image {
+        internal static Bitmap ToolStripDropDownButton6_Image {
             get {
                 object obj = ResourceManager.GetObject("ToolStripDropDownButton6.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ToolStripDropDownButton7_Image {
+        internal static Bitmap ToolStripDropDownButton7_Image {
             get {
                 object obj = ResourceManager.GetObject("ToolStripDropDownButton7.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ToolStripDropDownButton8_Image {
+        internal static Bitmap ToolStripDropDownButton8_Image {
             get {
                 object obj = ResourceManager.GetObject("ToolStripDropDownButton8.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ToolStripDropDownButton9_Image {
+        internal static Bitmap ToolStripDropDownButton9_Image {
             get {
                 object obj = ResourceManager.GetObject("ToolStripDropDownButton9.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap UncompressedToolStripMenuItem_Image {
+        internal static Bitmap UncompressedToolStripMenuItem_Image {
             get {
                 object obj = ResourceManager.GetObject("UncompressedToolStripMenuItem.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap UncryptedToolStripMenuItem_Image {
+        internal static Bitmap UncryptedToolStripMenuItem_Image {
             get {
                 object obj = ResourceManager.GetObject("UncryptedToolStripMenuItem.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap WxPirsToolStripMenuItem_Image {
+        internal static Bitmap WxPirsToolStripMenuItem_Image {
             get {
                 object obj = ResourceManager.GetObject("WxPirsToolStripMenuItem.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap XexBasicToolStripMenuItem_Image {
+        internal static Bitmap XexBasicToolStripMenuItem_Image {
             get {
                 object obj = ResourceManager.GetObject("XexBasicToolStripMenuItem.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap XexExtendedToolStripMenuItem_Image {
+        internal static Bitmap XexExtendedToolStripMenuItem_Image {
             get {
                 object obj = ResourceManager.GetObject("XexExtendedToolStripMenuItem.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
@@ -573,20 +579,20 @@ namespace XexToolGUI.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap XMLToolStripMenuItem_Image {
+        internal static Bitmap XMLToolStripMenuItem_Image {
             get {
                 object obj = ResourceManager.GetObject("XMLToolStripMenuItem.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
         
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ZeroIDToolStripMenuItem_Image {
+        internal static Bitmap ZeroIDToolStripMenuItem_Image {
             get {
                 object obj = ResourceManager.GetObject("ZeroIDToolStripMenuItem.Image", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
+                return ((Bitmap)(obj));
             }
         }
     }
